@@ -1,0 +1,49 @@
+.item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .item:last-of-type {
+  
+  }
+  
+  .users {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  
+  .buttonsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: flex-end;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  
+  .thead {
+    background-color: #e5e5e5;
+    font-weight: 600;
+  }
+  
+  .thead tr {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nameCol {
+    flex: 1 1 auto;
+    padding: 12px 16px;
+  }
+  
+  .ageCol {
+    flex: 1 1 auto;
+    padding: 12px 16px;
+  }
+  

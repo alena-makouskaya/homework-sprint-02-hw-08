@@ -1,0 +1,59 @@
+.sidebar {
+  display: none;
+}
+
+.sidebar.open {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+
+  padding: 16px 24px;
+  position: fixed;
+
+  width: 30%;
+
+  background-color: white;
+}
+
+.background {
+  box-shadow: 0px 1px 2px 0px #1d21261a;
+
+  box-shadow: 0px 10px 40px 0px #1d212621;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  
+  gap: 40px;
+
+  margin-top: 24px;
+  max-height: 100%;
+}
+
+.nav a {
+  text-decoration: none;
+
+  font-family: "Montserrat";
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+
+  color: #000000;
+}
+
+.nav a:hover {
+  color: #58acff;
+}
+
+.nav a.active {
+  color: #0059b2;
+  text-decoration: underline;
+}
+.close {
+    align-self: flex-end;
+}
+
+.close img {
+}
